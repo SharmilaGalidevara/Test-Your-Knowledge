@@ -1,3 +1,4 @@
+/* Base styles */
 .choice-container {
   display: flex;
   margin-bottom: 0.5rem;
@@ -34,7 +35,6 @@
 }
 
 /* HUD */
-
 #hud {
   display: flex;
   justify-content: space-between;
@@ -78,5 +78,39 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  /* Smaller question text */
+  #question {
+    font-size: 2.2rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  /* Smaller choices and paddings */
+  .choice-container {
+    font-size: 1.6rem;
+  }
+  .choice-prefix {
+    padding: 1rem 1.5rem;
+  }
+  .choice-text {
+    padding: 1rem;
+  }
+
+  /* HUD sizing */
+  .hud-prefix {
+    font-size: 1.6rem;
+  }
+  #progressBar {
+    width: 14rem;
+    height: 3rem;
+  }
+  #progressBarFull {
+    height: 2.4rem;
   }
 }
