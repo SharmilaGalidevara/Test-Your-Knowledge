@@ -10,17 +10,17 @@
   {
     "question": "Question 2: What is the nature of the soul?",
     "choice1": "It is temporary and fades away",
-    "choice2": "It’s just a part of the body",
+    "choice2": "It's just a part of the body",
     "choice3": "It is eternal and never dies",
-    "choice4": "It doesn’t really exist",
+    "choice4": "It doesn't really exist",
     "answer": 3
   },
   {
     "question": "Question 3: Why do we experience pain and suffering in life?",
-    "choice1": "It’s a part of life, just like happiness",
-    "choice2": "It’s due to our past actions (karma)",
-    "choice3": "It’s caused by other people’s actions",
-    "choice4": "It’s simply random and unavoidable",
+    "choice1": "It's a part of life, just like happiness",
+    "choice2": "It's due to our past actions (karma)",
+    "choice3": "It's caused by other people's actions",
+    "choice4": "It's simply random and unavoidable",
     "answer": 2
   },
   {
@@ -34,7 +34,7 @@
   {
     "question": "Question 5: What happens when we lose connection with our spiritual self?",
     "choice1": "We become more focused on material desires and temporary pleasures",
-    "choice2": "We start to understand life’s true purpose",
+    "choice2": "We start to understand life's true purpose",
     "choice3": "We experience immediate peace and fulfillment",
     "choice4": "We gain clarity about the nature of the soul",
     "answer": 1
@@ -51,7 +51,7 @@
     "question": "Question 7: What does Lord Krishna teach Arjuna about detachment in the Bhagavad Gita?",
     "choice1": "Detachment means to give up all material possessions",
     "choice2": "Detachment means to stop caring about anything in life",
-    "choice3": "Detachment means performing one’s duty without attachment to the results",
+    "choice3": "Detachment means performing one's duty without attachment to the results",
     "choice4": "Detachment means withdrawing from all action to focus solely on meditation",
     "answer": 3
   },
@@ -66,17 +66,17 @@
   {
     "question": "Question 9: What is the nature of the material world?",
     "choice1": "It is temporary and ever-changing",
-    "choice2": "It is an illusion, meant to distract us from spiritual truth",
+    "choice2": "It brings us towards spiritual growth",
     "choice3": "It is real and eternal, created by God",
     "choice4": "It is a place of suffering and should be avoided entirely",
     "answer": 1
   },
   {
-    "question": "Question 10: What is the ultimate goal of life?",
-    "choice1": "To accumulate wealth and success",
-    "choice2": "To experience pleasure and enjoyment",
-    "choice3": "To attain liberation (moksha) and union with the Divine",
-    "choice4": "To serve others selflessly",
+    "question": "Question 10: What quality is most important on the spiritual path?",
+    "choice1": "Popularity",
+    "choice2": "Ambition",
+    "choice3": "Patience",
+    "choice4": "Physical strength",
     "answer": 3
   }
 ]

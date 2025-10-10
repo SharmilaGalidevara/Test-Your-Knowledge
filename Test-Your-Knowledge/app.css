@@ -18,6 +18,118 @@ h4 {
   margin-bottom: 1rem;
 }
 
+/* Admin Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 2rem;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 40rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+  color: #aaa;
+  font-size: 2.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 30rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: 2px solid #ddd;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #56a5eb;
+  box-shadow: 0 0 0 3px rgba(86, 165, 235, 0.2);
+}
+
+/* Error states */
+.form-group.error input {
+  border-color: #ff6b6b;
+  padding-right: 2.5rem;
+}
+
+.form-group.success input {
+  border-color: #51cf66;
+  padding-right: 2.5rem;
+}
+
+/* Error message */
+.error-message {
+  color: #ff6b6b;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  height: 1.4rem;
+  display: none;
+}
+
+.form-group.error .error-message {
+  display: block;
+}
+
+/* Valid feedback (checkmark) */
+.valid-feedback {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #51cf66;
+  font-size: 1.4rem;
+  display: none;
+}
+
+.form-group.success .valid-feedback {
+  display: block;
+}
+
+#adminLoginForm button[type="submit"] {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#adminLoginBtn {
+  margin-top: 1rem;
+}
+
 h1 {
   font-size: 5.4rem;
   color: #56a5eb;
