@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test Your Knowledge!</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="shortcut icon" href="logo.png" />
+    <link rel="apple-touch-icon" href="logo.png" />
+  </head>
+  <body>
+    <img src="logo.png" alt="Logo" class="page-logo" />
+    <div class="container">
+      <div id="home" class="flex-center flex-column">
+        <h1>Test Your Knowledge!</h1>
+        <div class="form-group">
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Name"
+            autocomplete="name"
+            maxlength="30"
+            required
+          />
+          <div class="error-message" id="usernameError"></div>
+          <div class="valid-feedback">✓</div>
+        </div>
+        <div class="form-group">
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Phone number"
+            autocomplete="tel"
+            maxlength="15"
+            required
+          />
+          <div class="error-message" id="phoneError"></div>
+          <div class="valid-feedback">✓</div>
+        </div>
+        <button class="btn" id="startBtn" disabled>Start</button>
+        <a class="btn" href="highscores.html">High Scores</a>
+        <button class="btn" id="adminLoginBtn">Admin Login</button>
+        
+        <!-- Admin Login Modal -->
+        <div id="adminModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Admin Login</h2>
+            <form id="adminLoginForm">
+              <div class="form-group">
+                <label for="adminUsername">Username:</label>
+                <input type="text" id="adminUsername" name="adminUsername" required>
+              </div>
+              <div class="form-group">
+                <label for="adminPassword">Password:</label>
+                <input type="password" id="adminPassword" name="adminPassword" required>
+              </div>
+              <button type="submit" class="btn">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
